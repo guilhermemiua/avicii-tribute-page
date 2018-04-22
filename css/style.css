@@ -1,10 +1,13 @@
 body {
-  background-color: #fff;
   font-size: 16px;
   line-height: 1.4;
 }
 
 @media (min-width: 768px) {
+  body {
+    background-color: #111;
+  }
+  
   .container {
     background-color: #fff;
     border: 1px solid #fff;
@@ -33,14 +36,24 @@ body {
   width: 70%;
 }
 
-.biography, .tribute, .video {
+.biography, .tribute, footer {
   margin: 0 auto;
   width: 80%;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.social-networks {
+  width: 32px;
 }
 
 /* Typograph */
 h1, h2, h3, h4, h5, h6 {
   color: #111;
+  font-weight: bold;
   font-family: 'Dosis', sans-serif;
 }
 
@@ -75,6 +88,5 @@ p {
   p {
     font-size: 1rem;
     line-height: 1.4rem;
-
   }
 }
