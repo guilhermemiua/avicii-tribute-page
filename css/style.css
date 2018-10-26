@@ -29,6 +29,12 @@ body {
   margin-bottom: 40px;
 }
 
+@media (max-width: 767px) {
+  .title {
+    margin: 20px 0;
+  }
+}
+
 .img-title {
   margin: 10px 0 20px 0;
 }
